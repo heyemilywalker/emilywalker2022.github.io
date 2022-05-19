@@ -1,303 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Emily Walker">
-        <title>Franzen Irony University</title>
-        <link rel="stylesheet" href="css/style.css" type="text/css">
-
-        <!-- Add the link element to tell the browser what file to use for style information. -->
-
-    </head>
-    <body>
-        <header>
-            <h1>Franzen Irony University</h1>
-        </header>
-        <nav>
-            <a href="#">Bespoke </a>
-            <a href="#">Flexitarian</a>
-            <a href="#">Yuccie</a>
-            <a href="#">Woke</a>
-            <a href="#">Paleo</a>
-            <a href="#">Sriracha</a>
-        </nav>
-        <main>
-            <section>
-                <h2>Loko Kogi Fixie</h2>
-                <p>Sustainable taiyaki put a bird on it, stumptown tilde pop-up seitan vape chambray jean shorts tumblr hammock shaman. Fingerstache banjo tousled, occupy vexillologist kombucha 8-bit stumptown. 8-bit gastropub jianbing lumbersexual, kale chips hexagon stumptown XOXO bicycle rights put a bird on it four loko kogi fixie. Chartreuse yuccie chambray brooklyn prism 
-                    <a href="https://en.wikipedia.org/wiki/Kombucha">Kombucha</a>,
-                    <a href="https://en.wikipedia.org/wiki/Chicharr%C3%B3n">Chicharrón</a>,
-                    <a href="https://en.wikipedia.org/wiki/Jianbing">Jianbing</a>, viral put a bird on it locavore artisan banh mi raw denim. Put a bird on it farm-to-table food truck hammock <a href="https://en.wikipedia.org/wiki/Live_edge">live-edge</a>, banh mi leggings synth master cleanse you probably haven't heard of them.</p>
-                <p>Direct trade shabby chic you probably haven't heard of them normcore vexillologist photo booth slow-carb neutra. Hell of chicharrones succulents mustache tumeric normcore. Vice sriracha thundercats glossier narwhal ennui chartreuse palo santo sartorial. </p>
-                <h2>Offal Brunch Pop-Up</h2>
-                <p>Vice farm-to-table mlkshk narwhal shabby chic ennui listicle meh air plant selvage freegan chicharrones coloring book. Vaporware irony fashion axe, offal brunch pop-up hella portland edison bulb single-origin coffee mixtape. Actually try-hard celiac, occupy pour-over direct trade iPhone slow-carb squid wolf kombucha plaid DIY tumeric:</p>
-                <ul>
-                    <li>DIY fashion</li>
-                    <li>YOLO salvia</li>
-                    <li>Copper mug</li>
-                    <li>Tilde poutine</li>
-                </ul>
-                <p>Occupy pour-over direct trade iPhone slow-carb squid wolf kombucha plaid:</p>
-                <ol>
-                    <li><a href="#">On it migas</a> for more information</li>
-                    <li><a href="#">Mixtape gochujang</a>, freegan intelligentsia flannel selfies</li>
-                    <li><a href="#">Street art unicorn</a>!</li>
-                </ol>
-            </section>
-            <section>
-                <h2>Umami Tattooed Blog</h2>
-                <p>XOXO deep v street art affogato post-ironic, bicycle rights celiac meggings la croix disrupt man bun meh. Banh mi direct trade marfa vice. Organic copper mug viral meggings. Four dollar toast enamel pin butcher, palo santo tousled vice food truck hell of fixie XOXO. Snackwave biodiesel organic, listicle lomo green juice put a bird on it skateboard.</p>
-                <figure>
-                    <img src="images/grad.jpg" alt="statue at Bellevue Community College">
-                    <figcaption>
-                        <a href="https://live.staticflickr.com/4353/35532378753_9a112d3ef6_c.jpg">!!!</a> by <a href="https://www.flickr.com/photos/shari-thompson/">Shari Thompson</a> licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/legalcode">BY-NC-SA 2.0</a>
-                    </figcaption>
-                </figure>
-                <ul class="long-list">
-                    <li><a href="#">Listicle Tilde </a></li>
-                    <li><a href="#">Locavore</a></li>
-                    <li><a href="#">Vinyl Echo</a></li>
-                    <li><a href="#">Prism Raclette</a></li>
-                    <li><a href="#">Stumptown</a></li>
-                    <li><a href="#">Next Level Raw</a></li>
-                    <li><a href="#">Cold-Pressed</a></li>
-                    <li><a href="#">Bicycle Rights</a></li>
-                    <li><a href="#">Dollar Toast</a></li>
-                    <li><a href="#">Chillwave</a></li>
-                    <li><a href="#">Prism Raclette</a></li>
-                    <li><a href="#">Taxidermy</a></li>
-                    <li><a href="#">Food Truck</a></li>
-                    <li><a href="#">Shaman</a></li>
-                    <li><a href="#">Bushwick</a></li>
-                    <li><a href="#">Craft Beer</a></li>
-                    <li><a href="#">Tousled</a></li>
-                    <li><a href="#">Chicharrones</a></li>
-                    <li><a href="#">8-Bit Cleanse</a></li>
-                    <li><a href="#">Affogato</a></li>
-                    <li><a href="#">YOLO Beard</a></li>
-                    <li><a href="#">Palo Santo</a></li>
-                    <li><a href="#">Four Loko V</a></li>
-                    <li><a href="#">Wolf Moon 90's</a></li>
-                </ul>
-            </section>
-        </main>
-        <footer>
-            <p>&copy; 2019 Franzen Irony University</p>
-        </footer>
-    </body>
-</html>
-/* General setup */
-
-* {
-    box-sizing: border-box;
-}
-
-html {
-    font-size:16px;
-}
-
-body {
-    margin: 1.5rem auto;
-    width:90%;
-    min-width:56.25rem;
-}
-
-/* Layout */
-
-main {
-    overflow:auto;
-    min-width:45rem;
-    
-    
-}
-
-section {
-    float: left;
-    min-width: 22.5rem;
-    width:50%;
-}
-
-figure {
-    width:60%;
-    margin:0 10% 0 0;
-    float:left;
-}
-
-figure img {
-    width:100%;
-    max-width:25rem;
-}
-
-figcaption {
-    margin:.375rem 0;
-}
-
-.long-list {
-    margin-top:0;
-}
-
-nav {
-    float: left;
-    width:11.25rem;
-}
-
-footer {
-    clear: both;
-    margin-top:1.5rem;
-}
-
-section, aside, nav, footer {
-  padding: .5rem;
-}
-
-/* header and footer */
-
-header, footer {
-  border-top: .125rem solid #33658A;
-  border-bottom: .125rem solid #33658A;
-}
-
-/* ------ START WRITING YOUR CODE BELOW THIS LINE ------ */
-
-/* NO changes should be made to any of the code above. */
-
-/* NOTE: While you will be using some of the same CSS properties, the VALUES 
-   may need to be different in order to style the page correctly. */
-
-
-
-/* Imported Typfaces */
-@font-face {
-    font-family: josefinslab;
-    src: url(../fonts/josefinslab-regular.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: montserrat;
-    src: url(../fonts/montserrat-regular.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Typography Styles */
-html {
-    max-width:1200px;
-    margin:auto;
-    padding:1rem 2rem;
-}
-
-h1 {
-    font-family: josefinslab, sans-serif;
-    font-size: 3.75rem;
-    text-align: center;
-    letter-spacing: 0.125rem;
-    margin: 1.125rem;
-}
-
-h2 {
-    font-family: josefinslab, sans-serif;
-    font-size: 1.5rem;
-    letter-spacing: 0.125rem;
-}
-
-p {
-    font-size: .75rem;
-    text-indent: 1.5rem;
-    letter-spacing: 0.031rem;
-    word-spacing: 0.125rem;
-}
-
-li {
-    font-size: 0.75rem;
-    letter-spacing: 0.031rem;
-    word-spacing: 0.125rem;
-}
-
-figcaption {
-    font-size: 0.75rem;
-    margin-bottom: 2rem;
-}
-/* Link Styling */
-a {
-    outline: none;
-}
-
-a:link {
-    color: #33658A;
-    outline: none;
-}
-
-a:visited {
-    color: #33658A;
-    outline: none;
-}
-
-a:focus {
-    text-underline-position: none;
-}
-
-a:hover {
-    text-underline-position: none;
-}
-
-/* List Styling */
-ul {
-    list-style-type: square;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 0rem;
-    margin-right: 0rem;
-}
-
-ol {
-    list-style-type: lowercase;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 0rem;
-    margin-right: 0rem;
-}
-
-.long-list a:hover {
-    text-transform: uppercase;
-}
-
-/* Navigation Menu */
-nav {
-    padding-left: 0;
-    margin-top: .25rem;
-}
-
-nav a {
-    color: #33658A;
-    text-underline-position: none;
-    font-display: inline block;
-    width: 100%;
-    line-height: 3;
-    text-align: center;
-    font-size: 1.125rem;
-    margin-bottom: 1.5rem;
-    border-radius: solid; 
-    border-width: 0.063rem;
-}
-
-nav a:focus {
-    color: #FFF;
-    background-color: #33658A; 
-}
-
-nav a:hover {
-    color: #FFF;
-    background-color: #33658A;
-}
-
-nav a:active {
-    color: #FFF;
-    background-color: #000;
-}
-
-/* Footer Styles */
-footer {
-    text-align: center;
-
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initialscale=1.0">
+<meta name="author" content="=Emily Walker">
+<title>CE Truffaut | Web Developer</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<!-- Add an id attribute with a value of "top" to the opening body tag. -
+->
+<body>
+<!-- PAGE HEADER -->
+<!-- Wrap the top level heading in a header element -->
+<header>
+<h1>truffaut&nbsp;&nbsp;<span style="color: maroon">//</span>
+&nbsp;&nbsp;portfolio</h1>
+</header>
+<!-- NAVIGATION BAR -->
+<!-- Wrap the unordered list of links in a nav element -->
+<!-- Add the image "patricia-frost-125-edited-medium.jpg" right b
+efore the opening <ul> tag of the nav. Don't forget to include an alt att
+ribute to provide a description of the image.-->
+<nav>
+<img class="fit-picture"
+src="images/patricia-frost-125-edited-medium.jpg"
+alt="Patricia Frost">
+<ul>
+<li><a href="letter-markup">Letter Markup</a></li>
+<li><a href="planets-table">Planets Table</a></li>
+<li><a href="wanted-poster">Wanted Poster</a></li>
+<li><a href="school-site">School Site</a></li>
+<li><a href="blog">Blog</a></li>
+</ul>
+<!-- Before the closing </nav> tag, use a single paragraph elemen
+t to wrap the image attribution (links and text) below. -->
+<p
+<a href="https://www.flickr.com/photos/littlelovemons
+ter/2381213105/">Patricia_Frost 125</a> by
+<a href="https://www.flickr.com/photos/littlelovemons
+ter/">Pretty Poo Eater</a> licensed under
+<a href="https://creativecommons.org/licenses/bysa/2.0/legalcode">CC BY SA 2.0</a>
+</p>
+</nav>
+<!-- MAIN CONTENT AREA -->
+<!-- Wrap the remaining content - EXCEPT the last two paragraphs
+- in a main element. -->
+<main>
+<!-- SECTION -->
+<section>
+<!-- Add a section element and code its closing tag right bef
+ore the closing </main> tag. -->
+<!-- ARTICLE 1 -->
+<!-- Create an article. This article should contain a sec
+ond-level heading and three paragraphs. -->
+<article>
+<h2>bio</h2>
+<p>Umami chillwave pinterest, bushwick unicorn hammoc
+k green juice banjo try-hard mlkshk snackwave street art pabst selvage. K
+infolk put a bird on it la croix austin meh trust fund scenester. Knausga
+ard <strong>franzen</strong> truffaut, hammock put a bird on it butcher m
+umblecore fashion axe roof party YOLO celiac. Thundercats truffaut wolf l
+o-fi mixtape banjo adaptogen neutra 8-bit godard lumbersexual knausgaard.
+Lumbersexual pabst godard tattooed, dreamcatcher knausgaard 8-bit kombuch
+a drinking vinegar flannel 90's chambray air plant. Edison bulb succulent
+s art party scenester migas. Readymade lumbersexual gochujang, gastropub
+try-hard cold-pressed portland forage edison bulb flannel pug kale chips
+artisan.</p>
+<p>Asymmetrical lyft freegan cred. Readymade schlitz
+DIY, kogi fixie dreamcatcher intelligentsia man braid venmo hammock tumer
+ic godard copper mug plaid. Vegan VHS single-origin coffee disrupt, forag
+e gentrify freegan heirloom. Gochujang kickstarter unicorn lumbersexual.
+Freegan deep v vinyl vegan biodiesel blue bottle next level la croix post
+-ironic small batch single-origin coffee. Farm-to-table actually copper m
+ug retro. Biodiesel snackwave lumbersexual woke celiac hot chicken YOLO g
+luten-free.</p>
+<p>Pour-over sustainable normcore meditation, liveedge aesthetic cold-pressed tote bag. Migas palo santo plaid salvia, woke
+vape vice. Lyft church-key iceland, bitters man braid dreamcatcher chartr
+euse blog jianbing biodiesel you probably haven't heard of them 8-bit hoo
+die DIY. Ethical hashtag chartreuse mustache hexagon pok pok, sartorial m
+an bun cray. Subway tile DIY drinking vinegar, swag lumbersexual fanny pa
+ck four dollar toast readymade tumeric food truck locavore. Bitters stree
+t art selfies, occupy four loko actually waistcoat. Yr chia ennui, raclet
+te tousled coloring book biodiesel swag pour-over plaid hexagon taxidermy
+street art snackwave asymmetrical.</p>
+</article>
+<!-- ARTICLE 2 -->
+<!-- Create an article. This article should contain a sec
+ond-level heading, three paragraphs, and a blockquote with a paragraph ne
+sted in it. -->
+<article>
+<h2>design philosophy</h2>
+<p>Literally cold-pressed hell of keytar, sriracha XO
+XO edison bulb aesthetic austin church-key actually narwhal <a hre
+f="docs/waistcoat-sartorial.pdf" download="docs/waistcoatsartorial.pdf">Waistcoat Sartorial </a>. Craft beer affogato air plant to
+fu, bicycle rights edison bulb pinterest vexillologist irony. Intelligent
+sia messenger bag godard, small batch offal blog put a bird on it locavor
+e pour-over.</p>
+<p>Lyft readymade chia, echo park seitan schlitz heal
+th goth. Kale chips cloud bread photo booth church-key air plant. Four lo
+ko etsy actually shabby chic. Brunch drinking vinegar fingerstache plaid
++1 selfies thundercats. Kombucha fingerstache disrupt lo-fi pour-over act
+ually. Cronut brooklyn prism, before they sold out XOXO cardigan shoredit
+ch knausgaard direct trade. Synth fashion axe slow-carb heirloom air plan
+t.</p>
+<p><em><blockquote>"Hammock organic jean shorts migas
+occupy next level glossier yr deep v before they sold out jianbing artisa
+n. Bicycle rights gentrify salvia fixie, schlitz yuccie irony craft beer
+bushwick. Live-edge austin hammock pinterest actually readymade.
+"</p></em></blockquote>
+<p>Pok pok iPhone fashion axe taiyaki, echo park vega
+n trust fund yuccie small batch bespoke fam beard twee. Seitan actually f
+orage, fanny pack hell of hexagon vaporware. Gluten-free <em>flexitarian
+cornhole gentrify</em> skateboard keytar. Kinfolk distillery keffiyeh nar
+whal brooklyn godard, keytar letterpress poke intelligentsia fashion axe
+kickstarter artisan fanny pack master cleanse.</p>
+</article>
+<!-- ARTICLE 3 -->
+<!-- Create an article. This article should contain a sec
+ond-level heading and three paragraphs. -->
+<article>
+<h2>work ethic</h2>
+<p>Live-edge direct trade kickstarter street art flan
+nel meggings, letterpress wayfarers cardigan dreamcatcher bushwick kitsch
+franzen slow-carb. Pinterest lo-fi raclette, poutine williamsburg snackwa
+ve intelligentsia lomo. Distillery master cleanse cloud bread copper mug,
+unicorn cliche fam chambray. Bicycle rights enamel pin hella hoodie postironic tote bag tumeric portland. Microdosing VHS kickstarter art party c
+oloring book health goth. Vape pitchfork activated charcoal dreamcatcher
+chambray.</p>
+<p>Messenger bag kale chips banjo, vegan vice wayfare
+rs cornhole intelligentsia banh mi art party tote bag waistcoat. Everyday
+carry iceland beard chambray sustainable green juice marfa disrupt. Pork
+belly succulents pitchfork stumptown, YOLO butcher mustache letterpress t
+ote bag narwhal activated charcoal selvage. Tacos gastropub paleo, asymme
+trical leggings photo booth biodiesel kitsch +1 yuccie portland. Craft be
+er +1 direct trade quinoa coloring book single-origin coffee keffiyeh off
+al bitters semiotics. Lomo direct trade plaid, blog cronut ugh letterpres
+s normcore bicycle rights keffiyeh salvia wolf 90's typewriter.</p>
+<p>Mlkshk kitsch cloud bread air plant, chia heirloom
+you probably haven't heard of them godard af distillery authentic pintere
+st iPhone copper mug. Edison bulb sriracha chillwave ramps distillery. Se
+lvage lumbersexual <strong>try-hard marfa shaman</strong> raclette irony
+vegan hella pok pok chia. Live-edge VHS seitan, selfies fanny pack woke h
+ell of meh retro listicle XOXO cronut. Occupy forage palo santo post-
+ironic farm-to-table. Godard church-key salvia four dollar toast glossier
+palo santo cliche.</p>
+</article>
+</section>
+<!-- ASIDE -->
+<aside>
+<!-- Create an image bar using an aside element. The aside el
+ement should contain two figures.-->
+<!-- FIGURE 1 -->
+<!-- Create a figure and apply a class attribute to t
+he opening tag with the value of "fig-1". This figure should contain an i
+mage and a figcaption. The figcaption should contain the image attributio
+n (links and text below) imediately after the image. -->
+<figure class="fig-1">
+<!-- Add the image "puddle-1-medium.jpg" to the f
+igure. Don't forget to also include an alt attribute to provide a descrip
+tion of the image. -->
+<!-- Use a single figcaption element to wrap the
+image attribution (text and links below). -->
+<img class="fit-picture"
+src="images/puddle-1-medium.jpg"
+alt="Puddle 1">
+<figcaption>
+<a href="https://www.flickr.com/photos/eosmaiajoh
+anna/16418452630/">Puddle</a> by
+<a href="https://www.flickr.com/photos/eosmaiajoh
+anna/">eosmania</a> licensed under
+<a href="https://creativecommons.org/licenses/by/
+2.0/legalcode">CC BY 2.0</a>
+</figcaption>
+</figure>
+<!-- FIGURE 2 -->
+<!-- Create a figure and apply a class attribute to t
+he opening tag with the value of "fig-2". -->
+<figure class="fig-2">
+<!-- Add the image "puddle-2-medium.jpg" to the f
+igure. Don't forget to also include an alt attribute to provide a descrip
+tion of the image. -->
+<img class="fit-picture"
+src="images/puddle-2-medium.jpg"
+alt="Puddle 2">
+<!-- Use a single figcaption element to wrap the
+image attribution (text and links below). -->
+<figcaption>
+<a href="https://www.flickr.com/photos/markusloeb
+erbauer/4699136830/">Puddle (IMGP8766)</a> by
+<a href="https://www.flickr.com/photos/markusloeb
+erbauer/">Maarkus Loeberbauer</a> licensed under
+<a href="https://creativecommons.org/licenses/bysa/2.0/legalcode">CC BY SA 2.0</a>
+</figcaption>
+</figure>
+</aside>
+</main>
+<!-- FOOTER -->
+<!-- After the closing </main> tag, wrap the two remaining paragr
+aphs in a footer element. -->
+<!-- To the opening tag of the first paragraph in the footer,
+add a class attribute with the value of "return" -->
+<!-- Create a link using the text "Back to top" that returns
+the user to the top of the page when clicked. -->
+<!-- To the opening tag of the second paragraph in the footer
+, add a class attribute with the value of "copyright". -->
+<!-- Using the text "C.E. Truffaut" create an email hyperlink
+for the email address "ce.truffaut@cwu.edu". -->
+<footer>
+<p class="return"><a href="#top">Back to top </a></p>
+<p class="copyright"><a href="ce.truffaut@cwu.edu" title= "C.
+E. Truffaut"> &copy 2020 C.E. Truffaut</a></p>
+</footer>
