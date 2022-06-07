@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="">
+        <title> </title>
+        <link rel="" type="" href="">
+        <!-- XX COMPLETED XX Use a meta tag to designate yourself as the author of the page -->       
+        <!-- XX COMPLETED XX Give your page a title. -->        
+        <!-- XX COMPLETED XX Add the link element to tell the browser what file to use for style information. -->       
+    </head>
+    <body>
+        <header>
+             <h1> <span class="highlight"> </span> </h1>
+            <!-- Add a level 1 heading to display three words. Use a span element to highlight the second word. Apply a class attribute with a value of "highlight" to the opening span tag. --> 
+        </header>   
+        <nav>
+            
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </nav>
+        <!-- XX COMPLETED XX Add a navigation menu with five (5) links using the labels About, Blog, Merch, History, and Contact. Use the "#" symbol for your href values. -->      
+        <main>
+            <h2>/h2>                               
+            <!-- XX COMPLETED XX Add a class attribute with a value of "main-section" to the opening section tag below. -->          
+                <section class="main-section"> 
+                   <article> 
+                    <figure>
+                        <img  class="" src='' atl="">
+                    </figure>
+                        <p>
+                           
+                        </p>
+                        <p>
+                            
+                        </p>
+                    <h3> </h3>
+                        <p>
+                            
+                        </p>
+                        <p>
+                            
+                        </p>
+                        <p>
+                           
+                        </p>  
+                                                      
+                <time datetime=""></time>
+                     
+                    <!-- XX COMPLETED XX Create a figure that contains one (1) image; then, add a class attribute with a value of "article-image" to the opening figure tag. -->
+                    <!-- XX COMPLETED XX After the closing figure tag, add two (2) paragraphs of text; then, add a level 3 heading. -->                  
+                    <!-- XX COMPLETED XX After the closing heading tag, add two (2) additional paragrahs of text and another level 3 heading. -->                                       
+                    <!-- XX COMPLETED XX After the closing heading tag, add three (3) paragraphs of text. -->
+                    <!-- XX COMPLETED XX  Use the time element with a datetime attribute to display a date after the last paragrpah is closed. -->
+                    <!-- XX COMPLETED XX Add a class attribute with a value of "subsection" to the opening section tag below. -->
+                    <section class="subsection">                
+                        <figure>
+                            <img src="" alt="">
+                            <figcaption></figcaption>
+                        </figure>
+                        <figure>
+                            <img src="" alt="">
+                            <figcaption> </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="" alt="">
+                            <figcaption></figcaption>
+                        </figure>
+                    <!-- XX COMPLETED Between the two section tags, create three (3) figures, each with one (1) image and one (1) figcaption. --> 
+                  </article> 
+                
+                    <!-- Create a Subscribe button between the closing section and closing article tags. -->              
+                    <!-- XX COMPLETED XX Add a level 3 heading, followed by an image and a paragraph. --> 
+                    <!-- XX COMPLETED XX Add another level 3 heading, followed by an image and a paragraph. -->
+                    <!-- XX COMPLETED XX You guesed it, add an additional level three heading, followed by an image and a paragraph -->
+                   
+                    
+                    <!--XX COMPLETED XX Before continuing, add a hyperlink before the closing tags of the aside paragraphs that displays three circles. Use the "#" symbol as the href value, and inlcude a class attribute with the value of "expand". Note: The code to use for a cirle is:
+
+                        &#x26AB;  
+
+                    -->
+                    <button> </button>  
+                <aside>
+                     <h3></h3>
+                        <img src="" alt="">
+                        <p>
+                            
+                            <a class="expand" href="#">&#x26AB &#x26AB &#x26AB</a> 
+                        </p>
+                    <h3> </h3>
+                        <img src="" alt="">
+                        <p>
+                            
+                            <a class="expand" href="#">&#x26AB &#x26AB &#x26AB</a> 
+                        </p>
+                    <h3> </h3>
+                        <img src="" alt="">
+                        <p>
+                            
+                            <a class="expand" href="#">&#x26AB &#x26AB &#x26AB</a> 
+                        </p>
+                 </aside>
+            </section>
+        </main>
+<footer>
+            <p class="">&;<a href=""></a> </p>
+            <!-- XX COMPLETED  Add a paragraph with the copyright and a link to an email address. --->
+            <p class="">
+                <a href=""> ,</a> <a href=" "> ,</a> <a href=" "> ,</a> <a href=" "> ,</a> <a href=" "> </a> <a href= "> ,</a>  <a href=" "> ,</a></p>
+                <p class="">  <a href=" "> </a> <a href=</a> 
+            </p>
+            
+            <!-- XX COMPLETED XX Add a second paragraph with all of the text and links for attributing the images on the page. Make sure to use the "ideal" attribution from Creative Commons. -->
+            
+            
+        </footer>
+    </body>
+</html>
