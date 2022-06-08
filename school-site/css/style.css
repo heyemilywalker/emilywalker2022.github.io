@@ -64,33 +64,100 @@ section, aside, nav, footer {
 /* header and footer */
 
 header, footer {
-  border-top: .125rem solid #33658A;
+  border-top: .125rem solid #465f72;
   border-bottom: .125rem solid #33658A;
 }
 
-/* ------ START WRITING YOUR CODE BELOW THIS LINE ------ */
 
-/* NO changes should be made to any of the code above. */
-
-/* NOTE: While you will be using some of the same CSS properties, the VALUES 
-   may need to be different in order to style the page correctly. */
 
 
 
 /* Imported Typfaces */
+@font-face {
+    font-family: 'montserrat';
+    src: url(../fonts/montserrat-regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
 
+}
+@font-face {
+    font-family: 'josefinslab';
+    src: url(../fonts/josefinslab-regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+
+}
 
 
 
 
 /* Typography Styles */
+html {
+    font-family: "montserrat",arial, sans-serif;
+
+}
+
+h1 {
+    font-size: 3.75rem;
+    letter-spacing: .125rem;
+    font-family:'josefinslab', times, serif;
+    margin: 1.125rem;
+    text-align: center;
 
 
+}
+
+h2{
+    font-size:1.5rem;
+    letter-spacing:.125rem;
+    font-family: 'josefinslab, time, serif'
+}
+
+h2 + p {
+    text-indent: 1.5rem;
+    font-size: .75rem;
+    letter-spacing: .031rem;
+    word-spacing: .125rem;
+
+}
+
+p {
+    font-size: .75rem;
+    letter-spacing: .031rem;
+    word-spacing: .125rem
+
+}
+
+li {
+    font-size: .75rem;
+    letter-spacing: .031rem;
+    word-spacing: .125rem
+
+}
+
+figcaption{
+    font-size: .75rem;
+    margin-bottom: 2rem;
+}
 
 
 
 
 /* Link Styling */
+a{
+    outline: 0;
+}
+a:link
+a:visted {
+    color:#33658A
+
+}
+
+a:focus,
+a:hover{
+    text-decoration: none;
+}
 
 
 
@@ -98,6 +165,24 @@ header, footer {
 
 
 /* List Styling */
+ul{
+    list-style-type: square;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+ol{
+    list-style-type: lower-alpha;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+.long-list a:hover{
+ text-transform: uppercase;
+}
 
 
 
@@ -105,15 +190,39 @@ header, footer {
 
 
 /* Navigation Menu */
+nav{
+    padding-left: 0;
+    margin-top: 0.25rem;
+}
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    border: .063rem solid #33658A
 
+}
 
+nav a:focus,
+nav a:hover{
+    color: #fff;
+    background-color:#33658A
+}
 
+nav a:active{
+    color: #fff;
+    background-color:#000;
+}
 
 
 
 /* Footer Styles */
-
-
+footer{
+    text-align:center;
+}
 
 
 
